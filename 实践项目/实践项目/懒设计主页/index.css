@@ -1,0 +1,81 @@
+/* css初始化reset */
+/* 清除元素默认的内外边距 */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 清除列表样式 */
+li {
+    list-style: none;
+}
+/* 版心  1400   水平居中 */
+.w{
+    width: 1200px;
+    margin: auto;
+}
+/* 头部 */
+.hidder{
+    height: 100px;
+    background-color: goldenrod;
+}
+.logo {
+   float: left;
+   margin-right: 30px;
+}
+.nav {
+    float: left;
+}
+.nav ul li {
+    float: left;
+   
+}
+.nav ul li a {
+    display: block;
+    height: 100px;
+    line-height: 100px;
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    font-size: 20px;
+}
+.nav ul li a:hover {
+    color: white;
+    background-color: black;
+}
+.sousuo {
+    background-color: blue;
+    height: 200px;
+}
+.sousuo input{
+     width: 528px;
+     height: 63px;
+     border: 3px;
+     padding-left: 30px;
+     color: grey;
+}
+.sousuo button{
+    width: 50px;
+    height: 63px;
+    border: 3px;
+    background: url(sousuokuang.png);
+}
+.na {
+    float: left;
+}
+.na ul li {
+    float: left;
+   
+}
+.na ul li a {
+    display: block;
+    height: 100px;
+    line-height: 100px;
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    font-size: 20px;
+}
+.nav ul li a:hover {
+    color: gray;
+    
+}

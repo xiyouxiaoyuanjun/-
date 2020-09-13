@@ -1,0 +1,90 @@
+/* css初始化reset */
+/* 清除元素默认的内外边距 */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 清除列表样式 */
+li {
+    list-style: none;
+}
+/* 版心  1400   水平居中 */
+.w{
+    width: 1200px;
+    margin: auto;
+}
+/* 头部 */
+.hidder{
+    height: 60px;
+}
+.logo {
+   float: left;
+   margin-right: 30px;
+}
+.nav {
+    float: left;
+}
+.nav ul li {
+    float: left;
+   
+}
+
+.nav ul li a {
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+    font-family: 楷书;
+    font-size: 15px;
+}
+.nav ul li a:hover {
+    color: white;
+    background-color: black;
+}
+
+ .serve {
+    width: 100%;
+    height: 200px;
+    background-image:url(https://static.fotor.com.cn/static/web/designMarket/tpl/images/bg19207fd3b9e376252735891c6eec83ee4bff.jpg);
+    /* background-size: 1500px 200px; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+} 
+.serve input {
+    width: 528px;
+    float: left;
+    height: 63px;
+    margin-top: 30px;
+    margin-left: 350px;
+    border: 3px solid gray;
+    padding-left: 30px;
+    color: grey;
+} 
+/* .serve button {
+    width: 50px;
+    height: 63px;
+    margin-top: 30px;
+    float: left;
+    border: 0px;
+    background: url("images/sousuokuang.png");
+    background-size: 50px 63px;
+    border: 3px solid gray;
+    border-left: 0;
+    float: left;
+}
+.serve ul li {
+    display: inline-block;
+    height: 60px;
+    padding: 0 10px;
+    font-size: 20px;
+}
+.serve ul li a {
+    line-height: 60px;
+    text-decoration: none;
+    color: black;
+}
+.serve.lino {
+    margin: 100px auto 10px;
+} */

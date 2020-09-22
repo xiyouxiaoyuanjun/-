@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>懒</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <!-- 头部模块 -->
+    <div class="hidder">
+        <div class="logo">
+            <img src="https://static.fotor.com.cn/static/web/site/images/logo_black922ea617b55fb9b0ba3ae7cc42b3d426.png"
+                style="height: 80px;">
+        </div>
+        <div class="nav">
+            <ul class="left">
+                <li class='btn'>
+                    <a href="#">开始设计 </a>
+                </li>
+                <li class='btn'>
+                    <a href="#">照片编辑</a>
+                </li>
+                <li class='btn'>
+                    <a href="#">在线印刷</a>
+                </li>
+                <li class='btn' data-index='0'>
+                    <a href="#">素材库</a>
+                    <ul class="pull_down">
+                        <li>
+                            <a href="#" style="font-size: 12px;">模板中心</a>
+                            <a href="#" style="font-size: 12px;">贴纸中心</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='btn' data-index='1'>
+                    <a href="#">特色功能</a>
+                    <ul class="pull_down">
+                        <li>
+                            <a href="#" style="font-size: 12px;">设计</a>
+                            <a href="#" style="font-size: 12px;">素材</a>
+                            <a href="#" style="font-size: 12px;">印刷</a>
+                            <a href="#" style="font-size: 12px;">照片编辑</a>
+                            <a href="#" style="font-size: 12px;">大画家</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='btn' data-index='2'>
+                    <a href="#">更多</a>
+                    <ul class="pull_down">
+                        <li>
+                            <a href="#" style="font-size: 12px;">设计师招募</a>
+                            <a href="#" style="font-size: 12px;">设计师榜单</a>
+                            <a href="#" style="font-size: 12px;">设计学院</a>
+                            <a href="#" style="font-size: 12px;">VIP</a>
+                            <a href="#" style="font-size: 12px;">SDK服务</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- <ul class="right">
+                <li><a href="#">登录/注册</a></li>
+            </ul> -->
+        </div>
+    </div>
+
+    <script>
+        var btns = document.querySelectorAll('.btn');
+        var pullDown = document.querySelectorAll('.pull_down');
+        for (var i = 3; i < btns.length; i++) {
+            btns[i].addEventListener('mouseover', function (e) {
+                pullDown[this.getAttribute('data-index')].className = 'pull_down_active';
+            })
+            btns[i].addEventListener('mouseleave', function (e) {
+                pullDown[this.getAttribute('data-index')].className = 'pull_down';
+            })
+        }
+    </script>
+
+    <!-- 搜索框 -->
+    <div class="serve">
+        <input text='搜索模板'>
+
+        <div class="search">
+            <img src="images/sousuokuang.png">
+        </div>
+
+    </div>
+
+    <!-- 轮播图 -->
+    <div class='main'>
+      <div class="cen">
+           <div class="lunbo">
+               <div class="cir">
+                    <div class="anniu">
+                        <button class="one">按钮</button>
+                        <button class="two">按钮</button>
+                        <button class="three">按钮</button>
+                    </div>
+                <img src='https://static.fotor.com.cn/static/web/designMarket/images/banner-sicence-20200210.png'>
+
+       
+               </div>
+               <script>
+                var btns=document.getElementsByTagName('button');
+                var first=document.getElementById('1');
+                var second=document.getElementById('2');
+                var third=document.getElementById('3'); 
+                var img=document.querySelector('img');
+                for(var i=0;i<btns.length;i++){
+                    first.onclick=function(){
+                         img.src='https://static.fotor.com.cn/static/web/designMarket/images/banner-sicence-20200210.png';
+                    }
+                    second.onclick=function(){
+                         img.src='https://static.fotor.com.cn/static/web/designMarket/images/banner-sicence-20200210.png';
+                    }
+                    third.onclick=function(){
+                        img.src='https://static.fotor.com.cn/static/web/designMarket/images/banner-sicence-20200210.png';
+                    }
+        
+                }
+
+                
+
+        
+            </script>
+           </div>
+                 <!-- 好大一坨系列 -->
+      <div class="sel">
+          <div class="size">
+              <div class="lef">尺寸：</div>
+          </div>
+
+    </div>
+          
+      </div>
+
+
+        
+    </div>
+    
+
+    </div>
+</body>
+
+</html>

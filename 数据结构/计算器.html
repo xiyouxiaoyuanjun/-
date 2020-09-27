@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var str = '1+1+4';
+        var arr = str.split('')
+        var p = /[0-9]/;
+        var numbers = [];
+        var sy = [];
+        for(let i = 0; i <= arr.length - 1; i++) {
+            if(p.test(arr[i])){
+                numbers.push(arr[i])
+            }else {
+                sy.push(arr[i])
+            }
+        }
+        console.log(numbers);
+        console.log(sy)
+    </script>
+</body>
+</html>

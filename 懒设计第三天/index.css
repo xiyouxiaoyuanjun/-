@@ -1,0 +1,119 @@
+/* css初始化reset */
+/* 清除元素默认的内外边距 */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* 清除列表样式 */
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* 版心  1400   水平居中 */
+.w {
+  width: 1200px;
+  margin: auto;
+}
+/* 头部 */
+.hidder {
+  height: 60px;
+}
+.logo {
+  float: left;
+  margin-right: 30px;
+}
+.nav {
+  position: relative;
+  float: left;
+}
+.nav > ul > li {
+  text-align: center;
+  float: left;
+  padding: 0 20px;
+}
+
+.nav > ul > li > a {
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+.nav > ul > li a:hover {
+  color: white;
+  background-color: black;
+}
+.pull_down {
+  position: absolute;
+  top: 60px;
+  display: none;
+}
+.pull_down a {
+  font-size: 12px !important;
+}
+.pull_down_active {
+  position: absolute;
+  top: 60px;
+  display: block;
+}
+.serve {
+  width: 100%;
+  height: 120px;
+  background-image: url(https://static.fotor.com.cn/static/web/designMarket/tpl/images/bg19207fd3b9e376252735891c6eec83ee4bff.jpg);
+  /* background-size: 1500px 200px; */
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+.serve.search {
+  height: 69px;
+  width: 69px;
+  margin-top: 30px;
+}
+.serve input {
+  width: 528px;
+  float: left;
+  height: 63px;
+  margin-top: 30px;
+  margin-left: 350px;
+  border: 3px solid gray;
+  padding-left: 30px;
+  color: grey;
+}
+
+.main {
+  width: 1000px;
+  height: 500px;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+.focus {
+  position: absolute;
+  width: 700px;
+  height: 400px;
+  background-color: red;
+}
+.focus{
+    width: 300%;
+}
+.focus ul li {
+  float: left;
+}
+.arrow-l,
+.arrow-r{
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background-color: black;
+    text-align: center;
+    line-height: 40px;
+    color: blanchedalmond;
+    font-family: icomoon;
+    font-size: 18px;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>懒</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <!-- 头部模块 -->
+    <div class="hidder">
+        <div class="logo">
+            <img src="https://static.fotor.com.cn/static/web/site/images/logo_black922ea617b55fb9b0ba3ae7cc42b3d426.png"
+                style="height: 80px;">
+        </div>
+        <div class="nav">
+            <ul class="left">
+                <li class='btn'>
+                    <a href="#">开始设计 </a>
+                </li>
+                <li class='btn'>
+                    <a href="#">照片编辑</a>
+                </li>
+                <li class='btn'>
+                    <a href="#">在线印刷</a>
+                </li>
+                <li class='btn' data-index='0'>
+                    <a href="#">素材库</a>
+                    <ul class="pull_down">
+                        <li>
+                            <a href="#" style="font-size: 12px;">模板中心</a>
+                            <a href="#" style="font-size: 12px;">贴纸中心</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='btn' data-index='1'>
+                    <a href="#">特色功能</a>
+                    <ul class="pull_down">
+                        <li>
+                            <a href="#" style="font-size: 12px;">设计</a>
+                            <a href="#" style="font-size: 12px;">素材</a>
+                            <a href="#" style="font-size: 12px;">印刷</a>
+                            <a href="#" style="font-size: 12px;">照片编辑</a>
+                            <a href="#" style="font-size: 12px;">大画家</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='btn' data-index='2'>
+                    <a href="#">更多</a>
+                    <ul class="pull_down">
+                        <li>
+                            <a href="#" style="font-size: 12px;">设计师招募</a>
+                            <a href="#" style="font-size: 12px;">设计师榜单</a>
+                            <a href="#" style="font-size: 12px;">设计学院</a>
+                            <a href="#" style="font-size: 12px;">VIP</a>
+                            <a href="#" style="font-size: 12px;">SDK服务</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- <ul class="right">
+                <li><a href="#">登录/注册</a></li>
+            </ul> -->
+        </div>
+    </div>
+
+    <!-- <script>
+        var btns = document.querySelectorAll('.btn');
+        var pullDown = document.querySelectorAll('.pull_down');
+        for (var i = 3; i < btns.length; i++) {
+            btns[i].addEventListener('mouseover', function (e) {
+                pullDown[this.getAttribute('data-index')].className = 'pull_down_active';
+            })
+            btns[i].addEventListener('mouseleave', function (e) {
+                pullDown[this.getAttribute('data-index')].className = 'pull_down';
+            })
+        }
+    </script> -->
+
+    <!-- 搜索框 -->
+    <div class="serve">
+        <input text='搜索模板'>
+
+        <div class="search">
+            <img src="images/sousuokuang.png">
+        </div>
+
+    </div>
+    <!-- 轮播图 -->
+
+    <div class="w">
+        <div class="main">
+            <div class="focus f1">
+                <!-- 左侧按钮 -->
+                <a href="#" class="arrow-l">
+                   &lt;
+                </a>
+                <!-- 右侧按钮 -->
+                <a href="#" class="arrow-r">
+                    &lt;
+                    <!-- 核心的滚动区域 -->
+                </a>
+                <ul>
+                    <li>
+                        <a href="#"><img src="https://static.fotor.com.cn/static/web/designMarket/images/banner-peixun-20200220.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="https://static.fotor.com.cn/static/web/designMarket/images/banner-sicence-20200210.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="https://static.fotor.com.cn/static/web/designMarket/images/banner-meishi93e74345ca868f9c5ac37ffb04d388cb.jpg" alt=""></a>
+                    </li>
+                    
+                </ul>
+                <!-- 小圆圈 -->
+                <ol class="cirle">
+                    <li1></li1>
+                    <li2 class="current"></li2>
+                    <li3></li3>
+                    <li4></li4>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <!-- 轮播图结束 -->
+
+    
+    
+
+    </div>
+</body>
+
+</html>

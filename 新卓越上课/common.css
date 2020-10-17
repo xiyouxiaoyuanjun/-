@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol{
+    margin: 0;
+}
+ul,ol{
+    padding: 0;
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+em{
+    font-style: normal;
+}
+strong{
+    font-weight: normal;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:link{
+    color: #000;
+    text-decoration: none;
+}
+a:visited{
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    color: #000;
+    text-decoration: none;
+}
+a:active{
+    color: #000;
+    text-decoration: none;
+}
+body{
+    font-family:"PingFang SC",Arial,"Microsoft YaHei",sans-serif;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.2em;
+    overflow-x: hidden;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.overflow{
+    overflow:hidden;
+}
+.hide{
+    display:none;
+}
+.block{
+    display:block;
+}
+.inline{
+    display:inline;
+}
+.clearfix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
